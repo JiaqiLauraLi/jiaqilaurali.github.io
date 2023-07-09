@@ -28,7 +28,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, container {
+footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -3829,6 +3829,10 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
+				#main > .image {
+					display: none;
+				}
+				
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
