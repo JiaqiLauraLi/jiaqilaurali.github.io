@@ -3881,6 +3881,11 @@ input, select, textarea {
 			padding: 0;
 		}
 
+
+		#main > .posts > article > .li {
+			text-align: left;
+		}
+
 			#main > .posts > * {
 				-moz-flex-shrink: 1;
 				-webkit-flex-shrink: 1;
