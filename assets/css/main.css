@@ -3782,18 +3782,7 @@ input, select, textarea {
 
 
 		#main >  .container {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
 			display: flex;
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
-			-moz-justify-content: -moz-flex-end;
-			-webkit-justify-content: -webkit-flex-end;
-			-ms-justify-content: -ms-flex-end;
-			justify-content: flex-end;
 			align-items: center;
 			justify-content: center;
 			padding: 7rem 6rem 7rem 6rem ;
@@ -3832,13 +3821,11 @@ input, select, textarea {
 				#main > .post {
 					padding: 6rem 4rem 4rem 4rem ;
 				}
+
 			}
 
 			@media screen and (max-width: 736px) {
-				#main > .image {
-					display: none;
-				}
-				
+
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
