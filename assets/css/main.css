@@ -3278,7 +3278,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: 100% auto,															220% auto;
+				background-size: 100% auto,															265% auto;
 				background-repeat: no-repeat, repeat;
 			}
 
@@ -3805,11 +3805,11 @@ input, select, textarea {
 
 		  @media (max-width: 736px) {
 			#main > .container{
-				padding: 3rem 2rem 1.5rem 2rem;
+				padding: 3.5rem 2rem 3rem 2rem;
 			}
 			#main > .container > .t1{
 				font-size: 1rem;
-				padding: 0 0 0 0;
+				padding: 1rem 0 1rem 0;
 				border-left-width: 0;
 				border-right-width: 0;
 			}
