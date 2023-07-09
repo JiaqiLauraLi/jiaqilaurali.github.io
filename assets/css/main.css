@@ -3782,6 +3782,9 @@ input, select, textarea {
 
 
 		#main >  .container {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
 			display: flex;
 			align-items: center;
 			justify-content: center;
